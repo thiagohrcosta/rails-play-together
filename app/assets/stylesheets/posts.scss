@@ -54,7 +54,45 @@ body{
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+// btns
 
+.btns-info{
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns-info a:hover{
+  color: #fff;
+
+}
+
+.btn-my-info{
+  font-weight: bold;
+  background-color: #845ec2;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.btn-my-edit{
+  font-weight: bold;
+  background-color: #11698e;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.btn-my-delete{
+  font-weight: bold;
+  background-color: #aa2b1d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
 // post css
 
 

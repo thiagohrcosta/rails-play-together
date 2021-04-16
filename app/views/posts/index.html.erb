@@ -17,9 +17,12 @@
       <img class="cover-box" src="<%= post.cover %>" />
       <h2><%= post.title %></h2>
       <p class="game-title"><%= post.game %>
-      <p>Product description with <strong>relevant info</strong> only.</p>
-      <%= link_to "More info", post_path(post) %>
-      <%= link_to "Edit", edit_post_path(post) %>
+      <div class="btns-info">
+        <%= link_to "More info", post_path(post), class: 'btn-my-info' %>
+        <%= link_to "Edit", edit_post_path(post), class: 'btn-my-edit' %>
+        <%= link_to "Delete", edit_post_path(post), class: 'btn-my-delete' %>
+
+      </div>
     </div>
       <% end %>
   </div>
