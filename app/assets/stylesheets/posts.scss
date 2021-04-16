@@ -65,6 +65,21 @@ body{
 
 // show css
 
+.main-card{
+  position: relative;
+}
+
+.btn-join{
+  background-color: #301b3f;
+  color: #fff;
+  position: absolute;
+  padding: 10px 35px;
+  margin-top: -90px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
 .show-content{
   margin-top: 10%;
 }
