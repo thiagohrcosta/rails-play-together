@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   resources :posts do
     resources :comments, only: [:index, :new, :create]
   end
+
+  delete "posts/:id", to: "posts#destroy", as: :destroy_post
+
 end

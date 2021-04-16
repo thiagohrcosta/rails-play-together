@@ -18,8 +18,13 @@
           <img class="user-avatar" src="<%= @posts.avatar %>">
         <div class="user-post">
           <%= @posts.content %>
-
         </div>
+
+        <div class="btns-actions">
+        <%= link_to "Edit", edit_post_path(@posts), class: 'btn-my-edit' %>
+        <%= link_to "Delete", destroy_post_path(@posts), method: :delete, data: { confirm: "Are you sure?"}, class: 'btn-my-delete' %>
+        </div>
+
 
       </div>
     </div>
