@@ -1,1 +1,27 @@
-<%= @posts.title %>
+<div class="container mt-5">
+  <div class="game-box">
+    <div class="row">
+      <div class="col-lg-7">
+        <img src="<%= @posts.cover %>">
+      </div>
+      <div class="col-lg-5">
+        <h1><%= @posts.title %></h1>
+        <div class="row info-content">
+          <div class="col-lg-6 box-info-game">
+            <%= @posts.game %>
+          </div>
+          <div class="col-lg-6 box-info-user">
+            <span>Created by: <%= @posts.username %></span>
+          </div>
+        </div>
+        <hr class="h-line">
+        <div class="user-post">
+          <%= @posts.content %>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+

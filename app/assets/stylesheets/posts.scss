@@ -60,3 +60,50 @@ body{
 .cover-box{
   width: 100%;
 }
+
+
+// show css
+
+.game-box{
+  border-radius: 20px;
+  width: 100%;
+  background-color: #E8E8E8;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.info-content{
+  text-align: center;
+  width: 95%;
+}
+
+.box-info-game{
+  padding: 5px;
+  color: #fff;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #2b2e4a;
+  border: 1px solid #2b2e4a;
+  width: 100px;
+}
+
+.box-info-user{
+  padding: 5px;
+  border: 1px solid #2b2e4a;
+  width: 100px;
+
+}
+
+.h-line{
+  width: 93%;
+}
+
+
+// new post page
+
+.new-game{
+  background-color: #E8E8E8;
+}
+
+.user-post{
+  width: 93%
+}
