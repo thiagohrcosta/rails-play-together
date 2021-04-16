@@ -95,15 +95,19 @@ body{
 }
 
 .btn-join{
-  background-color: #301b3f;
+  background-color: #b8b5ff;
   color: #fff;
   position: absolute;
   padding: 10px 35px;
   margin-top: -90px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
+  border-radius: 0 20px 20px 0;
 }
 
+.btn-join a{
+  color:  #2b2e4a;
+  text-decoration: none;
+}
 
 .show-content{
   margin-top: 10%;
@@ -117,6 +121,7 @@ body{
   display:flex;
   margin: 0 auto;
   width: 100px;
+  height: 100px;
   border-radius: 50%;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
