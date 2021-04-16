@@ -1,29 +1,57 @@
-# README
-![mainImage](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playingTogether1.png?raw=true)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# PlayingTogether
 
-![image](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playTogether2.png?raw=true)
+![main banner](https://raw.githubusercontent.com/thiagohrcosta/rails-play-together/master/public/img/playingTogether1.png)
 
-![image](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playTogether3.png?raw=true)
 
-Things you may want to cover:
+## Technologies
+This project was created with:
 
-* Ruby version
+ - [Ruby](https://www.ruby-lang.org/pt/)
+ - [Rails](https://rubygems.org/gems/rails)
+ - [ERB](https://ruby-doc.org/stdlib-2.7.1/libdoc/erb/rdoc/ERB.html) (for template system with Ruby)
+ - [Pry-byebug](https://rubygems.org/gems/pry-byebug/versions/3.4.0?locale=pt-BR) (for debugging)
+ - [Bootstrap](https://getbootstrap.com/)
+ - Simple_form
+ - Sqlite3
 
-* System dependencies
+## Show
+![rshow1](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/play02.png?raw=true)
 
-* Configuration
+![show2](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/play03.png?raw=true)
+## CSS Grid
+To display flats on index page was used CSS grid:
 
-* Database creation
 
-* Database initialization
+    .box-flex{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 16px;
+      margin: 10px;
+    }
 
-* How to run the test suite
+    .box-flat{
+      margin: 10px 0;
+      border: 1px solid #E8E8E8;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
 
-* Services (job queues, cache servers, search engines, etc.)
+![cssGrid](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playingTogether4.png?raw=true)
+## How to run this project
+Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/posts`
 
-* Deployment instructions
+## What user can do?
+As user you can manipulate all **CRUD** operations like:
 
-* ...
+ - Get more information about some Game Nights;
+ - Create new post;
+ - Edit a post;
+ - Delete a post;
+
+## Development routine
+
+ **April 16**
+
+   - Project created;
+
+
