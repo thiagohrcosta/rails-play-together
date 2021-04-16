@@ -1,15 +1,15 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529154691717-3306083d869e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1580234831315-438a4813685c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80);">
   <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-    <p>Change your life and learn to code at one of our campuses around the world.</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
+    <h1>Stop playing alone or with random people!</h1>
+    <p>With PlayingTogether you will always find a buddy to play.</p>
+    <a class="btn-login" href="#game-night">Login</a>
   </div>
 </div>
 
 
-<div class="container">
+<div class="container main-container">
 
-  <h1>Game Nights Avaiable(<%= @posts.count %>)</h1>
+  <h1 id="game-night">Game Nights Avaiable(<%= @posts.count %>)</h1>
 
   <div class="card-flex">
     <% @posts.each do |post| %>

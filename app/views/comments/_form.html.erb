@@ -1,0 +1,8 @@
+<h1>teste</h1>
+
+<%= simple_form_for [ @post, @comment ] do |f| %>
+  <%= f.input :username %>
+  <%= f.input :avatar %>
+  <%= f.input :usercomment %>
+  <%= f.submit "Post comment", class: 'btn-submit-review' %>
+<% end %>
