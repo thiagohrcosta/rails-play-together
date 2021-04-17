@@ -2,27 +2,27 @@
   <div class="game-box main-card">
     <div class="row">
       <div class="col-lg-7">
-        <img class="img-display" src="<%= @posts.cover %>">
+        <img class="img-display" src="<%= @post.cover %>">
       </div>
       <div class="col-lg-5">
-        <h1 class="show-title"><%= @posts.title %></h1>
+        <h1 class="show-title"><%= @post.title %></h1>
         <div class="row info-content">
           <div class="col-lg-6 box-info-game">
-            <%= @posts.game %>
+            <%= @post.game %>
           </div>
           <div class="col-lg-6 box-info-user">
-            <span>Created by: <%= @posts.username %></span>
+            <span>Created by: <%= @post.username %></span>
           </div>
         </div>
         <hr class="h-line">
-          <img class="user-avatar" src="<%= @posts.avatar %>">
+          <img class="user-avatar" src="<%= @post.avatar %>">
         <div class="user-post">
-          <%= @posts.content %>
+          <%= @post.content %>
         </div>
 
         <div class="btns-actions">
-        <%= link_to "Edit", edit_post_path(@posts), class: 'btn-my-edit' %>
-        <%= link_to "Delete", destroy_post_path(@posts), method: :delete, data: { confirm: "Are you sure?"}, class: 'btn-my-delete' %>
+        <%= link_to "Edit", edit_post_path(@post), class: 'btn-my-edit' %>
+        <%= link_to "Delete", destroy_post_path(@post), method: :delete, data: { confirm: "Are you sure?"}, class: 'btn-my-delete' %>
         </div>
 
 
@@ -30,7 +30,7 @@
     </div>
     <div class="btn-join">
       <h2>
-        <%= link_to "Join", new_post_comment_path(@posts) %>
+        <%= link_to "Join", new_post_comment_path(@post) %>
       </h2>
     </div>
   </div>
