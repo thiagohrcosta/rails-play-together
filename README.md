@@ -51,6 +51,10 @@ As user you can manipulate all **CRUD** operations like:
  - Edit a post;
  - Delete a post;
 
+## DB Model
+
+![dbmodel](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/dbmodel.png?raw=true)
+
 ## Development routine
 
  **April 16**
