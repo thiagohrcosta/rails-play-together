@@ -11,7 +11,7 @@
             <%= @post.game %>
           </div>
           <div class="col-lg-6 box-info-user">
-            <span>Created by: <%= @post.username %></span>
+            <span>By: <%= @post.username %></span>
           </div>
         </div>
         <hr class="h-line">
@@ -38,8 +38,12 @@
   <div class="user-comment-box">
     <% @post.comment.each do |comment| %>
       <div class="user-content">
+        <div class="avatar-box">
         <img src="<%= comment.avatar %>">
-        <p><%= comment.username %></p>
+        <p class="username-comment"><%= comment.username %></p>
+        </div>
+        <p class="btn-edit-comment">Edit Comment</p>
+        <p class="btn-delete-comment">Delete</p>
         <hr>
         <div class="user-comment">
           <p><%= comment.usercomment %></p>
