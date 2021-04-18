@@ -19,6 +19,9 @@ This project was created with:
 ![rshow1](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/play02.png?raw=true)
 
 ![show2](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/play03.png?raw=true)
+
+## User comment
+![comment](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playComment.png?raw=true)
 ## CSS Grid
 To display flats on index page was used CSS grid:
 
