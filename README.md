@@ -22,6 +22,7 @@ This project was created with:
 
 ## User comment
 ![comment](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playComment.png?raw=true)
+
 ## CSS Grid
 To display flats on index page was used CSS grid:
 
@@ -40,6 +41,7 @@ To display flats on index page was used CSS grid:
     }
 
 ![cssGrid](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/playingTogether4.png?raw=true)
+
 ## How to run this project
 Download or clone it. . Then run in the main folder the command `rails server`. If needed, run `bundle install` to check if all gems are correctly installed. Then open the project on `localhost:3000/posts`
 
@@ -52,8 +54,7 @@ As user you can manipulate all **CRUD** operations like:
  - Delete a post;
 
 ## DB Model
-
-![dbmodel](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/dbmodel.png?raw=true)
+![dbModel](https://github.com/thiagohrcosta/rails-play-together/blob/master/public/img/dbmodel.png?raw=true)
 
 ## Development routine
 
