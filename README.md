@@ -55,6 +55,29 @@ As user you can manipulate all **CRUD** operations like:
 
  **April 16**
 
-   - Project created;
+    - Project created;
+    - Post Controller created;
+    - Post Model created;
+    - Bootstrap and simple_form added;
+    - Show page created;
+    - Edit page created;
+    - Migration do add user avatar on post created;
+    - Using position relative and absolute on CSS to insert join btn;
+    - Adding Model Comment that references Post on database;
+    - Comments Controller created with his actions;
+    - Adding CSS to index page;
+    - Fix some CSS.
+
+ **April 17**
+
+    - Fix a bug on New Comment route;
+
+ **April 18**
+
+    - Adding user comment on game night room;
+    - Adding CSS to each comment;
+    - Update readme.
+
+
 
 
