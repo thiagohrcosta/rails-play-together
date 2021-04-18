@@ -37,12 +37,13 @@
 
   <div class="user-comment-box">
     <% @post.comment.each do |comment| %>
-      <div class="user-comment">
+      <div class="user-content">
         <img src="<%= comment.avatar %>">
         <p><%= comment.username %></p>
-      </div>
-      <div>
-        <p><%= comment.usercomment %></p>
+        <hr>
+        <div class="user-comment">
+          <p><%= comment.usercomment %></p>
+        </div>
       </div>
     <% end %>
   </div>

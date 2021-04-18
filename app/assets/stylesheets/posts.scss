@@ -235,10 +235,6 @@ body{
 // user comment box
 
 .user-comment-box{
-  margin: 20px 0;
-  border-radius: 20px;
-  background-color: #E8E8E8;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
   img{
     border-radius: 50%;
@@ -246,8 +242,15 @@ body{
     height: 80px;
   }
 
-  .user-comment{
+  .user-content{
+    margin: 20px 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #E8E8E8;
     padding: 20px;
+    border-radius: 20px;
+  }
+
+  .user-comment{
   }
 }
 
