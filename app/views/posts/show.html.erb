@@ -34,5 +34,17 @@
       </h2>
     </div>
   </div>
+
+  <div class="user-comment-box">
+    <% @post.comment.each do |comment| %>
+      <div class="user-comment">
+        <img src="<%= comment.avatar %>">
+        <p><%= comment.username %></p>
+      </div>
+      <div>
+        <p><%= comment.usercomment %></p>
+      </div>
+    <% end %>
+  </div>
 </div>
 

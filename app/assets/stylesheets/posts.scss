@@ -231,3 +231,24 @@ body{
   margin-top: 20px;
   width: 93%
 }
+
+// user comment box
+
+.user-comment-box{
+  margin: 20px 0;
+  border-radius: 20px;
+  background-color: #E8E8E8;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+
+  .user-comment{
+    padding: 20px;
+  }
+}
+
+
