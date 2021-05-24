@@ -1,4 +1,12 @@
-<div class="container">
+<%= render 'navbar' %>
 
-  <%= render 'form', comment: @comment %>
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-6 bg-comment-left">
+
+    </div>
+    <div class="col-lg-6 bg-comment-right">
+      <%= render 'form', comment: @comment %>
+    </div>
+  </div>
 </div>

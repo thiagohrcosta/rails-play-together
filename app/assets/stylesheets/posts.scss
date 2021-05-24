@@ -33,6 +33,10 @@ body{
   color: #fff;
 }
 
+.logo{
+  margin-left: 20px;
+}
+
 
 // main banner
 
@@ -86,6 +90,29 @@ body{
 // post css
 
 
+// edit post
+
+.bg-left-edit{
+  background-image: url("https://res.cloudinary.com/dloadb2bx/image/upload/v1621476011/3e370674872a55b18bdbc4dbdebe6253_mqaddm.jpg")
+}
+
+.bg-right-edit{
+  padding: 20px;
+  background-color: #d1d9d9;
+}
+
+.btn-update{
+  width: 100%;
+  background-color: #344fa1;
+  color: #fff;
+  font-weight: bold;
+}
+
+//navbar
+
+.navbar-left{
+  margin-left: auto;
+}
 
 //card flex
 
@@ -111,7 +138,7 @@ body{
   text-align: center;
 }
 .cover-box{
-  height: 250px;
+  height: 200px;
   width: 100%;
 }
 
@@ -267,7 +294,7 @@ body{
     text-align: center;
     color: #fff;
     margin-top: -120px;
-    margin-left: 766px;
+    margin-left: 946px;
     position: absolute;
     width: 150px;
     padding: 5px 20px;
@@ -278,7 +305,7 @@ body{
     text-align: center;
     color: #fff;
     margin-top: -70px;
-    margin-left: 766px;
+    margin-left: 946px;
     position: absolute;
     width: 150px;
     padding: 5px 20px;
@@ -286,4 +313,18 @@ body{
   }
 }
 
+.bg-comment-right{
+  padding: 20px;
+  background-color: #d1d9d9;
+}
 
+
+.bg-comment-left{
+  background-image: url("https://res.cloudinary.com/dloadb2bx/image/upload/v1621479161/f37256b61802fb2c715a383c84a011a4_cngvcn.jpg");
+  background-size: 100% 100%;
+}
+
+.btn-submit-review{
+  margin-top: 10px;
+  width: 100%;
+}

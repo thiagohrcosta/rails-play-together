@@ -3,6 +3,9 @@
 
 ![main banner](https://raw.githubusercontent.com/thiagohrcosta/rails-play-together/master/public/img/playingTogether1.png)
 
+# Voted the 6th best project of the week
+![vote](https://res.cloudinary.com/dloadb2bx/image/upload/v1621816788/6thbest_rxarg9.png)
+This project was voted the sixth best project of the week by [CareerKarma](https://careerkarma.com/discussions/projects/play-together-558/).
 
 ## Technologies
 This project was created with:
